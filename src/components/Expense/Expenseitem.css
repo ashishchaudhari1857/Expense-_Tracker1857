@@ -1,0 +1,12 @@
+.expense-item {
+  display: flex;
+  height: 120px;
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12%;
+}
