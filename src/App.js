@@ -26,7 +26,12 @@ const App = () => {
     return <User info={data}  remove={()=>removeHandler(i)}key={i}></User>;
   });
 
-  return <>{expenseItems}</>;
-};
+  return(
+    <>
+    <Expenseform></Expenseform>
+  {expenseItems}
+  </>
+  );
+}
 
 export default App;
